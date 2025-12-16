@@ -1,50 +1,6 @@
-# 🛡️ Hero Level Classifier
-
-This project is a programming challenge that implements a **hero level classifier based on Greek mythology heroes** and their experience points (`XP`).  
-The goal is to practice control structures in JavaScript such as **if/else**, **switch case**, **for**, **while**, and **do-while**.
-
----
-
-## 📖 Description
-
-Each hero has an experience value (`XP`) and is classified into a specific level according to the following rules:
-
-- **Iron**: XP < 1000  
-- **Bronze**: 1000 ≤ XP ≤ 2000  
-- **Silver**: 2001 ≤ XP ≤ 5000  
-- **Gold**: 5001 ≤ XP ≤ 7000  
-- **Platinum**: 7001 ≤ XP ≤ 8000  
-- **Ascendant**: 8001 ≤ XP ≤ 9000  
-- **Immortal**: 9001 ≤ XP ≤ 10000  
-- **Radiant**: XP > 10000  
-
----
-
-## 🧑‍💻 Technologies Used
-
-- **JavaScript (ES6+)**
-- Control structures:
-  - **if/else**
-  - **switch case**
-  - **for**
-  - **while**
-  - **do-while**
-
----
-
-## 📂 Code Structure
-
-- A list of Greek mythology heroes with their respective experience points.
-- Function `classifyHeroIfElse(xp)` → uses **if/else**.
-- Function `classifyHeroSwitch(xp)` → uses **switch case**.
-- Loops to iterate through the list of heroes:
-  - `for` with if/else
-  - `while` with switch
-  - `do-while` with if/else
-
----
-
-## 🚀 Code
+// Desafio Classificador de Nível de Herói
+// Utilizando if/else, switch case, for, while e do-while
+// Heróis da mitologia grega
 
 // Lista de heróis para testar
 let herois = [
