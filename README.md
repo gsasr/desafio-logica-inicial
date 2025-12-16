@@ -46,6 +46,16 @@ Each hero has an experience value (`XP`) and is classified into a specific level
 
 ## 🚀 Code
 
+# 🛡️ Desafio Classificador de Nível de Herói
+
+Este projeto classifica heróis da mitologia grega em diferentes níveis de acordo com sua experiência (XP).  
+Foram utilizados **if/else**, **switch case**, **for**, **while** e **do-while** para demonstrar diferentes formas de percorrer e classificar os heróis.
+
+```javascript
+// Desafio Classificador de Nível de Herói
+// Utilizando if/else, switch case, for, while e do-while
+// Heróis da mitologia grega
+
 // Lista de heróis para testar
 let herois = [
     { nome: "Zeus", xp: 750 },
@@ -125,3 +135,4 @@ do {
     console.log(`O Herói de nome ${herois[k].nome} está no nível de ${nivel}`);
     k++;
 } while (k < herois.length);
+
